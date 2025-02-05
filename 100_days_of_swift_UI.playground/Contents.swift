@@ -199,3 +199,26 @@ enum Weekday {
 var day = Weekday.monday
 day = Weekday.tuesday
 day = Weekday.friday
+
+// Day 4
+
+let surname: String = "Lasso"
+var score1: Int = 0
+
+var albums1: [String] = ["Red", "Fearless"]
+
+enum UIStyle {
+    case light, dark, system
+}
+
+var style = UIStyle.dark
+style = .dark
+
+let username: String
+// lots of complex logic
+username = "@twostraws"
+// lots more complex logic
+print(username)
+
+let languages = ["R","Python"]
+languages.count
